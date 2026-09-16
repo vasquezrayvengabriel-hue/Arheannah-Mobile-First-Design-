@@ -3,53 +3,24 @@
 
 <head>
 
-    <!-- =========================
-         BASIC PAGE SETTINGS
-    ========================== -->
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Arheannah Delfino - 2nd Year BS Information Technology Student Portfolio">
-
-    <meta name="author"
-          content="Arheannah Delfino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Arheannah Delfino | Portfolio</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- =========================
-         GOOGLE FONT
-    ========================== -->
-
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-
-    <!-- =========================
-         FONT AWESOME
-    ========================== -->
-
+    <!-- Font Awesome -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-
-    <!-- =========================
-         MAIN CSS
-    ========================== -->
-
-    <link rel="stylesheet"
-          href="css/style.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -57,112 +28,73 @@
 <body>
 
 
-    <!-- =========================
-         HEADER / NAVIGATION
-    ========================== -->
+    <!-- ========================================
+         HEADER
+    ========================================= -->
 
     <header class="header">
 
-        <div class="nav-container">
+        <div class="header-container">
 
 
-            <!-- LOGO / NAME -->
+            <!-- Logo -->
 
-            <a href="index.html"
-               class="logo">
+            <a href="index.html" class="logo">
 
                 <span class="logo-mark">
                     A
                 </span>
 
-                <span class="logo-name">
+                <span class="logo-text">
                     Arheannah
                 </span>
 
             </a>
 
 
-            <!-- =========================
-                 MOBILE MENU BUTTON
-            ========================== -->
+            <!-- Hamburger Button -->
 
             <button class="menu-toggle"
                     id="menuToggle"
-                    type="button"
-                    aria-label="Open navigation menu"
-                    aria-expanded="false">
+                    aria-label="Open navigation menu">
 
                 <i class="fas fa-bars"></i>
 
             </button>
 
 
-            <!-- =========================
-                 NAVIGATION MENU
-            ========================== -->
+            <!-- Navigation -->
 
-            <nav class="nav-menu"
-                 id="navMenu"
-                 aria-label="Main navigation">
+            <nav class="nav-menu" id="navMenu">
 
-
-                <a href="index.html"
-                   class="nav-link active">
-
+                <a href="index.html" class="active">
                     <i class="fas fa-house"></i>
-
-                    <span>
-                        Home
-                    </span>
-
+                    Home
                 </a>
 
-
-                <a href="about.html"
-                   class="nav-link">
-
+                <a href="about.html">
                     <i class="fas fa-user"></i>
-
-                    <span>
-                        About
-                    </span>
-
+                    About
                 </a>
 
+                <a href="education.html">
+                    <i class="fas fa-graduation-cap"></i>
+                    Education
+                </a>
 
-                <a href="skills.html"
-                   class="nav-link">
-
+                <a href="skills.html">
                     <i class="fas fa-code"></i>
-
-                    <span>
-                        Skills
-                    </span>
-
+                    Skills
                 </a>
 
-
-                <a href="projects.html"
-                   class="nav-link">
-
+                <a href="projects.html">
                     <i class="fas fa-folder-open"></i>
-
-                    <span>
-                        Projects
-                    </span>
-
+                    Projects
                 </a>
 
-
-                <a href="contact.html"
-                   class="nav-link">
-
+                <a href="contact.html">
                     <i class="fas fa-envelope"></i>
-
-                    <span>
-                        Contact
-                    </span>
-
+                    Contact
                 </a>
 
             </nav>
@@ -170,194 +102,124 @@
         </div>
 
     </header>
-      <!-- =========================
+
+
+    <!-- ========================================
          MAIN CONTENT
-    ========================== -->
+    ========================================= -->
 
     <main>
 
 
-        <!-- =========================
-             HERO / HOME SECTION
-        ========================== -->
+        <!-- ========================================
+             HERO SECTION
+        ========================================= -->
 
-        <section class="hero"
-                 id="home">
-
+        <section class="hero">
 
             <div class="hero-container">
 
 
-                <!-- =========================
-                     PROFILE AREA
-                ========================== -->
+                <!-- Profile Image -->
 
-                <div class="hero-profile">
-
+                <div class="hero-image">
 
                     <div class="profile-ring">
 
-                        <div class="profile-image">
-
-                            <img src="images/profile.jpg"
-                                 alt="Arheannah Delfino">
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Small status label -->
-
-                    <div class="student-badge">
-
-                        <span class="status-dot"></span>
-
-                        <span>
-                            BS Information Technology
-                        </span>
+                        <img src="images/profile.jpg"
+                             alt="Arheannah Delfino">
 
                     </div>
 
                 </div>
 
 
-
-                <!-- =========================
-                     INTRODUCTION
-                ========================== -->
+                <!-- Hero Content -->
 
                 <div class="hero-content">
 
-
-                    <p class="hero-greeting">
-
+                    <span class="hero-greeting">
                         Hello, I'm
-
-                    </p>
-
+                    </span>
 
                     <h1>
-
                         Arheannah
                         <span>Delfino</span>
-
                     </h1>
 
-
                     <h2>
-
-                        2nd Year
-                        <strong>
-                            BS Information Technology
-                        </strong>
-                        Student
-
+                        2nd Year BS Information Technology Student
                     </h2>
 
-
-                    <p class="hero-description">
-
-                        I am an Information Technology student
-                        who enjoys learning about technology,
-                        programming, web development, and
-                        creative digital solutions.
-
+                    <p>
+                        I'm a passionate Information Technology student
+                        interested in software development, web development,
+                        programming, and creating useful digital solutions.
                     </p>
 
 
-                    <!-- =========================
-                         MOTTO
-                    ========================== -->
+                    <!-- Motto -->
 
                     <div class="motto-card">
 
-                        <div class="motto-icon">
+                        <i class="fas fa-quote-left"></i>
 
-                            <i class="fas fa-seedling"></i>
-
-                        </div>
-
-
-                        <div class="motto-content">
-
-                            <span>
-                                My Motto
-                            </span>
-
-                            <p>
-                                "Grow with curiosity,
-                                create with purpose."
-                            </p>
-
-                        </div>
+                        <p>
+                            Grow with curiosity, create with purpose.
+                        </p>
 
                     </div>
 
 
-                    <!-- =========================
-                         HERO BUTTONS
-                    ========================== -->
+                    <!-- Hero Buttons -->
 
                     <div class="hero-buttons">
 
-
                         <a href="about.html"
-                           class="btn primary-btn">
+                           class="btn btn-primary">
 
-                            <i class="fas fa-user"></i>
+                            About Me
 
-                            <span>
-                                About Me
-                            </span>
+                            <i class="fas fa-arrow-right"></i>
 
                         </a>
 
 
                         <a href="contact.html"
-                           class="btn secondary-btn">
+                           class="btn btn-outline">
 
-                            <i class="fas fa-paper-plane"></i>
+                            Contact Me
 
-                            <span>
-                                Contact Me
-                            </span>
+                            <i class="fas fa-envelope"></i>
 
                         </a>
 
                     </div>
 
 
-                    <!-- =========================
-                         SOCIAL LINKS
-                    ========================== -->
+                    <!-- Social Links -->
 
                     <div class="hero-social">
 
-
-                        <span class="social-label">
-                            Connect with me
+                        <span>
+                            Connect with me:
                         </span>
 
-
-                        <!-- Facebook -->
 
                         <a href="https://www.facebook.com/share/19Eqh1hroo/"
                            target="_blank"
                            rel="noopener noreferrer"
-                           aria-label="Arheannah on Facebook">
+                           aria-label="Facebook">
 
                             <i class="fab fa-facebook-f"></i>
 
                         </a>
 
 
-                        <!-- Instagram -->
-
                         <a href="https://www.instagram.com/itsur_eana?stkn=MWtpcGV1b3U5Y3pvMA=="
                            target="_blank"
                            rel="noopener noreferrer"
-                           aria-label="Arheannah on Instagram">
+                           aria-label="Instagram">
 
                             <i class="fab fa-instagram"></i>
 
@@ -370,66 +232,60 @@
             </div>
 
 
-            <!-- =========================
-                 SCROLL INDICATOR
-            ========================== -->
+            <!-- Scroll Indicator -->
 
-            <a href="#intro"
-               class="scroll-indicator"
-               aria-label="Scroll to introduction">
+            <div class="scroll-indicator">
 
                 <span>
-                    Explore
+                    Scroll to explore
                 </span>
 
                 <i class="fas fa-chevron-down"></i>
 
-            </a>
+            </div>
 
         </section>
-              <!-- =========================
-             QUICK INTRODUCTION
-        ========================== -->
 
-        <section class="intro-section"
-                 id="intro">
 
+        <!-- ========================================
+             INTRODUCTION
+        ========================================= -->
+
+        <section class="intro-section">
 
             <div class="section-container">
 
 
-                <!-- Section heading -->
-
                 <div class="section-heading">
 
                     <span class="section-label">
+                        <i class="fas fa-seedling"></i>
                         Welcome
                     </span>
 
                     <h2>
-                        A Little About Me
+                        Learning, Creating & Growing
                     </h2>
 
                     <p>
-                        Discover my journey as an
-                        Information Technology student.
+                        My journey in Information Technology is driven by
+                        curiosity, creativity, and a desire to continuously
+                        improve my skills.
                     </p>
 
                 </div>
 
 
-                <!-- =========================
-                     INTRO CARDS
-                ========================== -->
+                <!-- Intro Cards -->
 
                 <div class="intro-grid">
 
 
-                    <!-- Card 1 -->
+                    <!-- Technology -->
 
-                    <article class="intro-card">
+                    <div class="intro-card">
 
-                        <div class="intro-card-icon">
+                        <div class="card-icon">
 
                             <i class="fas fa-laptop-code"></i>
 
@@ -440,19 +296,18 @@
                         </h3>
 
                         <p>
-                            I am interested in how technology
-                            can be used to create useful,
-                            creative, and practical solutions.
+                            Exploring modern technologies and discovering
+                            how they can be used to create useful solutions.
                         </p>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Card 2 -->
+                    <!-- Programming -->
 
-                    <article class="intro-card">
+                    <div class="intro-card">
 
-                        <div class="intro-card-icon">
+                        <div class="card-icon">
 
                             <i class="fas fa-code"></i>
 
@@ -463,19 +318,18 @@
                         </h3>
 
                         <p>
-                            I continue to develop my programming
-                            skills through school activities,
-                            practice, and personal projects.
+                            Developing my programming knowledge through
+                            practice, projects, and continuous learning.
                         </p>
 
-                    </article>
+                    </div>
 
 
-                    <!-- Card 3 -->
+                    <!-- Creativity -->
 
-                    <article class="intro-card">
+                    <div class="intro-card">
 
-                        <div class="intro-card-icon">
+                        <div class="card-icon">
 
                             <i class="fas fa-lightbulb"></i>
 
@@ -486,42 +340,23 @@
                         </h3>
 
                         <p>
-                            I enjoy turning ideas into digital
-                            experiences through design,
-                            problem solving, and technology.
+                            Combining technology and creativity to design
+                            simple, useful, and meaningful digital experiences.
                         </p>
 
-                    </article>
+                    </div>
 
-                </div>
-
-
-                <!-- =========================
-                     VIEW MORE
-                ========================== -->
-
-                <div class="section-action">
-
-                    <a href="about.html"
-                       class="text-link">
-
-                        Learn more about me
-
-                        <i class="fas fa-arrow-right"></i>
-
-                    </a>
 
                 </div>
 
             </div>
 
         </section>
-              <!-- =========================
-             FEATURED SKILLS
-        ========================== -->
+                <!-- ========================================
+             EDUCATION PREVIEW
+        ========================================= -->
 
-        <section class="featured-section">
-
+        <section class="education-preview">
 
             <div class="section-container">
 
@@ -529,102 +364,154 @@
                 <div class="section-heading">
 
                     <span class="section-label">
-                        What I Learn
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
                     </span>
 
                     <h2>
-                        Exploring Technology
+                        My Academic Journey
                     </h2>
 
                     <p>
-                        Some of the areas I am currently
-                        learning and developing.
+                        From elementary school to my current college journey,
+                        every stage has helped shape who I am today.
                     </p>
 
                 </div>
 
 
-                <!-- =========================
-                     SKILL PREVIEW
-                ========================== -->
+                <!-- Education Preview Grid -->
 
-                <div class="featured-skills">
+                <div class="education-preview-grid">
 
 
-                    <div class="featured-skill">
+                    <!-- Elementary -->
 
-                        <i class="fab fa-html5"></i>
+                    <div class="education-mini-card">
 
-                        <span>
-                            HTML & CSS
-                        </span>
+                        <div class="card-icon">
 
-                    </div>
+                            <i class="fas fa-school"></i>
 
+                        </div>
 
-                    <div class="featured-skill">
+                        <div>
 
-                        <i class="fab fa-js"></i>
+                            <span class="education-level">
+                                Elementary
+                            </span>
 
-                        <span>
-                            JavaScript
-                        </span>
+                            <h3>
+                                Lingig Central ES
+                            </h3>
 
-                    </div>
+                            <span class="education-year">
+                                2013 – 2018
+                            </span>
 
-
-                    <div class="featured-skill">
-
-                        <i class="fab fa-java"></i>
-
-                        <span>
-                            Java
-                        </span>
+                        </div>
 
                     </div>
 
 
-                    <div class="featured-skill">
+                    <!-- Junior High -->
 
-                        <i class="fas fa-palette"></i>
+                    <div class="education-mini-card">
 
-                        <span>
-                            UI / UX
-                        </span>
+                        <div class="card-icon">
+
+                            <i class="fas fa-book"></i>
+
+                        </div>
+
+                        <div>
+
+                            <span class="education-level">
+                                Junior High School
+                            </span>
+
+                            <h3>
+                                Lingig National High School
+                            </h3>
+
+                            <span class="education-year">
+                                2018 – 2023
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Senior High -->
+
+                    <div class="education-mini-card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-user-graduate"></i>
+
+                        </div>
+
+                        <div>
+
+                            <span class="education-level">
+                                Senior High School
+                            </span>
+
+                            <h3>
+                                Andress Soriano College of Bislig
+                            </h3>
+
+                            <span class="education-year">
+                                2023 – 2025
+                            </span>
+
+                        </div>
 
                     </div>
 
 
-                    <div class="featured-skill">
+                    <!-- College -->
 
-                        <i class="fas fa-mobile-screen"></i>
+                    <div class="education-mini-card current-education">
 
-                        <span>
-                            Responsive Design
-                        </span>
+                        <div class="card-icon">
+
+                            <i class="fas fa-laptop-code"></i>
+
+                        </div>
+
+                        <div>
+
+                            <span class="education-level">
+                                College • Present
+                            </span>
+
+                            <h3>
+                                De La Salle John Bosco
+                            </h3>
+
+                            <span class="education-year">
+                                Present
+                            </span>
+
+                        </div>
 
                     </div>
 
-
-                    <div class="featured-skill">
-
-                        <i class="fas fa-brain"></i>
-
-                        <span>
-                            Problem Solving
-                        </span>
-
-                    </div>
 
                 </div>
 
 
-                <div class="section-action">
+                <!-- View Education Button -->
 
-                    <a href="skills.html"
-                       class="text-link">
+                <div class="section-button">
 
-                        View all skills
+                    <a href="education.html"
+                       class="btn btn-primary">
+
+                        View Full Education
 
                         <i class="fas fa-arrow-right"></i>
 
@@ -635,96 +522,330 @@
             </div>
 
         </section>
-              <!-- =========================
-             HOME CTA
-        ========================== -->
-
-        <section class="home-cta">
 
 
-            <div class="cta-container">
+        <!-- ========================================
+             FEATURED SKILLS
+        ========================================= -->
+
+        <section class="featured-skills">
+
+            <div class="section-container">
 
 
-                <div class="cta-icon">
+                <div class="section-heading">
 
-                    <i class="fas fa-rocket"></i>
-
-                </div>
-
-
-                <div class="cta-content">
-
-                    <span>
-                        Let's connect
+                    <span class="section-label">
+                        <i class="fas fa-code"></i>
+                        Skills
                     </span>
 
                     <h2>
-                        Have a project or message?
+                        Skills I'm Developing
                     </h2>
 
                     <p>
-                        Feel free to visit my contact page
-                        and connect with me.
+                        These are some of the technical and creative skills
+                        I am currently developing as an IT student.
                     </p>
 
                 </div>
 
 
-                <a href="contact.html"
-                   class="btn cta-btn">
+                <!-- Skills Grid -->
 
-                    Contact Me
+                <div class="skills-preview-grid">
 
-                    <i class="fas fa-arrow-right"></i>
 
-                </a>
+                    <!-- HTML & CSS -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fab fa-html5"></i>
+
+                        </div>
+
+                        <h3>
+                            HTML & CSS
+                        </h3>
+
+                        <p>
+                            Building and styling responsive web pages.
+                        </p>
+
+                    </div>
+
+
+                    <!-- JavaScript -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fab fa-js"></i>
+
+                        </div>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Learning to create interactive web experiences.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Java -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fab fa-java"></i>
+
+                        </div>
+
+                        <h3>
+                            Java Programming
+                        </h3>
+
+                        <p>
+                            Developing programming fundamentals with Java.
+                        </p>
+
+                    </div>
+
+
+                    <!-- UI/UX -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fas fa-pen-ruler"></i>
+
+                        </div>
+
+                        <h3>
+                            UI/UX Design
+                        </h3>
+
+                        <p>
+                            Designing clean and user-friendly interfaces.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Responsive Design -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fas fa-mobile-screen"></i>
+
+                        </div>
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Creating layouts that adapt to different screens.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Problem Solving -->
+
+                    <div class="skill-preview-card">
+
+                        <div class="skill-icon">
+
+                            <i class="fas fa-puzzle-piece"></i>
+
+                        </div>
+
+                        <h3>
+                            Problem Solving
+                        </h3>
+
+                        <p>
+                            Finding practical approaches to technical problems.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="section-button">
+
+                    <a href="skills.html"
+                       class="btn btn-outline">
+
+                        View All Skills
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+                            </section>
+                                    <!-- ========================================
+             CAREER DIRECTION
+        ========================================= -->
+
+        <section class="career-section">
+
+            <div class="section-container">
+
+                <div class="career-card">
+
+
+                    <div class="career-icon">
+
+                        <i class="fas fa-laptop-code"></i>
+
+                    </div>
+
+
+                    <div class="career-content">
+
+                        <span class="section-label">
+
+                            <i class="fas fa-compass"></i>
+
+                            Future Goal
+
+                        </span>
+
+                        <h2>
+                            Aspiring Software Developer
+                        </h2>
+
+                        <p>
+                            I am interested in software development and
+                            technology. As I continue my BS Information
+                            Technology journey, I want to strengthen my
+                            programming skills and learn how to build useful
+                            and meaningful software.
+                        </p>
+
+
+                        <a href="about.html"
+                           class="btn btn-primary">
+
+                            Learn More About Me
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </section>
 
-    </main>
 
+        <!-- ========================================
+             HOME CTA
+        ========================================= -->
 
+        <section class="page-cta">
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+            <div class="section-container">
 
-    <footer class="footer">
+                <div class="cta-content">
 
+                    <span class="section-label">
 
-        <div class="footer-container">
+                        <i class="fas fa-paper-plane"></i>
 
+                        Let's Connect
 
-            <!-- Footer identity -->
+                    </span>
 
-            <div class="footer-brand">
-
-                <div class="footer-logo">
-
-                    A
-
-                </div>
-
-                <div>
-
-                    <h3>
-                        Arheannah Delfino
-                    </h3>
+                    <h2>
+                        Have a Project or Message?
+                    </h2>
 
                     <p>
-                        2nd Year BS Information Technology Student
+                        Feel free to visit my contact page and send me
+                        a message.
                     </p>
+
+                    <a href="contact.html"
+                       class="btn btn-primary">
+
+                        Contact Me
+
+                        <i class="fas fa-envelope"></i>
+
+                    </a>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <!-- Footer navigation -->
+
+    </main>
+
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <!-- Footer Brand -->
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+                    A
+                </div>
+
+                <h3>
+                    Arheannah Delfino
+                </h3>
+
+                <p>
+                    2nd Year BS Information Technology Student
+                </p>
+
+                <p class="footer-motto">
+                    “Grow with curiosity, create with purpose.”
+                </p>
+
+            </div>
+
+
+            <!-- Footer Links -->
 
             <div class="footer-links">
+
+                <h4>
+                    Quick Links
+                </h4>
 
                 <a href="index.html">
                     Home
@@ -732,6 +853,10 @@
 
                 <a href="about.html">
                     About
+                </a>
+
+                <a href="education.html">
+                    Education
                 </a>
 
                 <a href="skills.html">
@@ -749,60 +874,61 @@
             </div>
 
 
-            <!-- Social media -->
+            <!-- Footer Social -->
 
             <div class="footer-social">
 
+                <h4>
+                    Connect With Me
+                </h4>
 
-                <a href="https://www.facebook.com/share/19Eqh1hroo/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="Facebook">
-
-                    <i class="fab fa-facebook-f"></i>
-
-                </a>
+                <div class="social-links">
 
 
-                <a href="https://www.instagram.com/itsur_eana?stkn=MWtpcGV1b3U5Y3pvMA=="
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="Instagram">
+                    <a href="https://www.facebook.com/share/19Eqh1hroo/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Facebook">
 
-                    <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
 
-                </a>
-
-            </div>
+                    </a>
 
 
-            <!-- Copyright -->
+                    <a href="https://www.instagram.com/itsur_eana?stkn=MWtpcGV1b3U5Y3pvMA=="
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
 
-            <div class="footer-bottom">
+                        <i class="fab fa-instagram"></i>
 
-                <p>
-                    © 2026 Arheannah Delfino.
-                    All Rights Reserved.
-                </p>
+                    </a>
 
-                <p>
-                    Built with curiosity and creativity.
-                </p>
+                </div>
 
             </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Arheannah Delfino. All Rights Reserved.
+            </p>
 
         </div>
 
     </footer>
 
 
-
-    <!-- =========================
+    <!-- ========================================
          JAVASCRIPT
-    ========================== -->
+    ========================================= -->
 
     <script src="js/script.js"></script>
-
 
 </body>
 
