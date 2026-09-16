@@ -4,42 +4,23 @@
 <head>
 
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="About Arheannah Delfino - BS Information Technology Student">
-
-    <meta name="author"
-          content="Arheannah Delfino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Me | Arheannah Delfino</title>
 
-
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-
     <!-- Font Awesome -->
-
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-
     <!-- Main CSS -->
-
-    <link rel="stylesheet"
-          href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -47,38 +28,35 @@
 <body>
 
 
-    <!-- =========================
-         HEADER / NAVIGATION
-    ========================== -->
+    <!-- ========================================
+         HEADER
+    ========================================= -->
 
     <header class="header">
 
-        <div class="nav-container">
+        <div class="header-container">
 
 
             <!-- Logo -->
 
-            <a href="index.html"
-               class="logo">
+            <a href="index.html" class="logo">
 
                 <span class="logo-mark">
                     A
                 </span>
 
-                <span class="logo-name">
+                <span class="logo-text">
                     Arheannah
                 </span>
 
             </a>
 
 
-            <!-- Mobile Menu -->
+            <!-- Hamburger -->
 
             <button class="menu-toggle"
                     id="menuToggle"
-                    type="button"
-                    aria-label="Open navigation menu"
-                    aria-expanded="false">
+                    aria-label="Open navigation menu">
 
                 <i class="fas fa-bars"></i>
 
@@ -87,68 +65,36 @@
 
             <!-- Navigation -->
 
-            <nav class="nav-menu"
-                 id="navMenu"
-                 aria-label="Main navigation">
+            <nav class="nav-menu" id="navMenu">
 
-
-                <a href="index.html"
-                   class="nav-link">
-
+                <a href="index.html">
                     <i class="fas fa-house"></i>
-
-                    <span>
-                        Home
-                    </span>
-
+                    Home
                 </a>
 
-
-                <a href="about.html"
-                   class="nav-link active">
-
+                <a href="about.html" class="active">
                     <i class="fas fa-user"></i>
-
-                    <span>
-                        About
-                    </span>
-
+                    About
                 </a>
 
+                <a href="education.html">
+                    <i class="fas fa-graduation-cap"></i>
+                    Education
+                </a>
 
-                <a href="skills.html"
-                   class="nav-link">
-
+                <a href="skills.html">
                     <i class="fas fa-code"></i>
-
-                    <span>
-                        Skills
-                    </span>
-
+                    Skills
                 </a>
 
-
-                <a href="projects.html"
-                   class="nav-link">
-
+                <a href="projects.html">
                     <i class="fas fa-folder-open"></i>
-
-                    <span>
-                        Projects
-                    </span>
-
+                    Projects
                 </a>
 
-
-                <a href="contact.html"
-                   class="nav-link">
-
+                <a href="contact.html">
                     <i class="fas fa-envelope"></i>
-
-                    <span>
-                        Contact
-                    </span>
-
+                    Contact
                 </a>
 
             </nav>
@@ -156,23 +102,29 @@
         </div>
 
     </header>
-        <!-- =========================
-         ABOUT PAGE
-    ========================== -->
+
+
+    <!-- ========================================
+         MAIN CONTENT
+    ========================================= -->
 
     <main>
 
 
-        <!-- =========================
+        <!-- ========================================
              PAGE HERO
-        ========================== -->
+        ========================================= -->
 
         <section class="page-hero">
 
             <div class="page-hero-content">
 
                 <span class="section-label">
-                    Get to know me
+
+                    <i class="fas fa-user"></i>
+
+                    Get to Know Me
+
                 </span>
 
                 <h1>
@@ -180,116 +132,137 @@
                 </h1>
 
                 <p>
-                    A little about my journey,
-                    interests, and goals in Information Technology.
+                    A 2nd Year BS Information Technology student
+                    passionate about learning, technology, and creativity.
                 </p>
 
             </div>
 
         </section>
-
-
-        <!-- =========================
-             ABOUT INTRODUCTION
-        ========================== -->
+                <!-- ========================================
+             ABOUT PROFILE
+        ========================================= -->
 
         <section class="about-section">
 
             <div class="section-container">
 
+                <div class="about-profile">
 
-                <div class="about-main-grid">
 
+                    <!-- Profile Image -->
 
-                    <!-- Profile -->
+                    <div class="about-image">
 
-                    <div class="about-profile-card">
-
-                        <div class="about-profile-image">
+                        <div class="profile-ring">
 
                             <img src="images/profile.jpg"
                                  alt="Arheannah Delfino">
 
                         </div>
 
-
-                        <h2>
-                            Arheannah Delfino
-                        </h2>
-
-
-                        <p class="about-role">
-                            2nd Year BS Information Technology Student
-                        </p>
-
-
-                        <div class="about-status">
-
-                            <span class="status-dot"></span>
-
-                            <span>
-                                Student • Technology Enthusiast
-                            </span>
-
-                        </div>
-
                     </div>
 
 
-                    <!-- Introduction -->
+                    <!-- About Content -->
 
-                    <div class="about-text">
+                    <div class="about-content">
 
                         <span class="section-label">
-                            Who I Am
+
+                            <i class="fas fa-user-circle"></i>
+
+                            About Me
+
                         </span>
 
-
                         <h2>
-                            Learning, Creating,
-                            and Growing Through Technology
+                            Hello, I'm Arheannah Delfino
                         </h2>
 
+                        <h3>
+                            2nd Year BS Information Technology Student
+                        </h3>
 
                         <p>
-                            I am Arheannah Delfino, a 2nd year
-                            Bachelor of Science in Information
-                            Technology student.
+                            I am a 2nd Year Bachelor of Science in Information
+                            Technology student who is interested in technology,
+                            programming, and software development.
+                        </p>
+
+                        <p>
+                            I enjoy learning new concepts, exploring
+                            programming, and creating websites and digital
+                            projects that allow me to apply what I learn.
+                        </p>
+
+                        <p>
+                            As I continue my studies, I want to improve my
+                            technical skills, strengthen my problem-solving
+                            abilities, and gain more experience in software
+                            development.
                         </p>
 
 
-                        <p>
-                            My journey in Information Technology
-                            allows me to explore programming,
-                            web development, digital design,
-                            and different technologies that can
-                            be used to solve everyday problems.
-                        </p>
+                        <!-- Status -->
+
+                        <div class="about-status">
+
+                            <div class="status-item">
+
+                                <i class="fas fa-graduation-cap"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Education
+                                    </strong>
+
+                                    <span>
+                                        BS Information Technology
+                                    </span>
+
+                                </div>
+
+                            </div>
 
 
-                        <p>
-                            As I continue my studies, I am focused
-                            on improving my technical skills,
-                            learning from every project, and
-                            gaining experience through practice.
-                        </p>
+                            <div class="status-item">
+
+                                <i class="fas fa-layer-group"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Year Level
+                                    </strong>
+
+                                    <span>
+                                        2nd Year
+                                    </span>
+
+                                </div>
+
+                            </div>
 
 
-                        <p>
-                            I believe that progress comes from
-                            curiosity, patience, creativity,
-                            and the willingness to keep learning.
-                        </p>
+                            <div class="status-item">
 
+                                <i class="fas fa-code"></i>
 
-                        <div class="about-motto">
+                                <div>
 
-                            <i class="fas fa-seedling"></i>
+                                    <strong>
+                                        Career Interest
+                                    </strong>
 
-                            <span>
-                                "Grow with curiosity,
-                                create with purpose."
-                            </span>
+                                    <span>
+                                        Software Development
+                                    </span>
+
+                                </div>
+
+                            </div>
 
                         </div>
 
@@ -300,11 +273,51 @@
             </div>
 
         </section>
-                <!-- =========================
-             PERSONAL FOCUS
-        ========================== -->
 
-        <section class="about-focus-section">
+
+        <!-- ========================================
+             MOTTO
+        ========================================= -->
+
+        <section class="motto-section">
+
+            <div class="section-container">
+
+                <div class="large-motto-card">
+
+                    <div class="motto-icon">
+
+                        <i class="fas fa-quote-left"></i>
+
+                    </div>
+
+                    <div class="motto-content">
+
+                        <span class="section-label">
+                            My Motto
+                        </span>
+
+                        <h2>
+                            “Grow with curiosity, create with purpose.”
+                        </h2>
+
+                        <p>
+                            I believe that curiosity encourages learning,
+                            while purpose gives meaning to what we create.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+                <!-- ========================================
+             WHAT DRIVES ME
+        ========================================= -->
+
+        <section class="focus-section">
 
             <div class="section-container">
 
@@ -312,7 +325,11 @@
                 <div class="section-heading">
 
                     <span class="section-label">
+
+                        <i class="fas fa-compass"></i>
+
                         My Focus
+
                     </span>
 
                     <h2>
@@ -320,8 +337,8 @@
                     </h2>
 
                     <p>
-                        The areas that continue to shape
-                        my journey as an IT student.
+                        These are some of the things that motivate me
+                        throughout my academic and personal journey.
                     </p>
 
                 </div>
@@ -332,11 +349,11 @@
 
                     <!-- Technology -->
 
-                    <article class="focus-card">
+                    <div class="focus-card">
 
-                        <div class="focus-icon">
+                        <div class="card-icon">
 
-                            <i class="fas fa-laptop-code"></i>
+                            <i class="fas fa-microchip"></i>
 
                         </div>
 
@@ -345,19 +362,18 @@
                         </h3>
 
                         <p>
-                            Exploring new technologies and
-                            understanding how digital tools
-                            can make tasks more efficient.
+                            I enjoy discovering how technology can be used
+                            to solve problems and make everyday tasks easier.
                         </p>
 
-                    </article>
+                    </div>
 
 
                     <!-- Learning -->
 
-                    <article class="focus-card">
+                    <div class="focus-card">
 
-                        <div class="focus-icon">
+                        <div class="card-icon">
 
                             <i class="fas fa-book-open"></i>
 
@@ -368,21 +384,20 @@
                         </h3>
 
                         <p>
-                            Building my knowledge through
-                            school activities, practice,
-                            research, and personal projects.
+                            I believe that every project and experience is
+                            an opportunity to learn something new.
                         </p>
 
-                    </article>
+                    </div>
 
 
                     <!-- Creativity -->
 
-                    <article class="focus-card">
+                    <div class="focus-card">
 
-                        <div class="focus-icon">
+                        <div class="card-icon">
 
-                            <i class="fas fa-wand-magic-sparkles"></i>
+                            <i class="fas fa-lightbulb"></i>
 
                         </div>
 
@@ -391,19 +406,18 @@
                         </h3>
 
                         <p>
-                            Finding creative ways to transform
-                            ideas into useful websites,
-                            applications, and digital experiences.
+                            I like combining creativity with technology to
+                            create clean and meaningful digital experiences.
                         </p>
 
-                    </article>
+                    </div>
 
 
                     <!-- Problem Solving -->
 
-                    <article class="focus-card">
+                    <div class="focus-card">
 
-                        <div class="focus-icon">
+                        <div class="card-icon">
 
                             <i class="fas fa-puzzle-piece"></i>
 
@@ -414,23 +428,23 @@
                         </h3>
 
                         <p>
-                            Learning to approach challenges
-                            logically and develop practical
-                            solutions using technology.
+                            I am developing the ability to understand
+                            problems and find practical technical solutions.
                         </p>
 
-                    </article>
+                    </div>
+
 
                 </div>
 
             </div>
 
         </section>
-                <!-- =========================
-             EDUCATION
-        ========================== -->
+                <!-- ========================================
+             ACADEMIC JOURNEY
+        ========================================= -->
 
-        <section class="education-section">
+        <section class="about-academic">
 
             <div class="section-container">
 
@@ -438,54 +452,50 @@
                 <div class="section-heading">
 
                     <span class="section-label">
-                        My Education
+
+                        <i class="fas fa-graduation-cap"></i>
+
+                        Academic Journey
+
                     </span>
 
                     <h2>
-                        Academic Journey
+                        Growing Through Education
                     </h2>
 
                     <p>
-                        My current journey as an
-                        Information Technology student.
+                        My education continues to shape my knowledge,
+                        interests, and goals in Information Technology.
                     </p>
 
                 </div>
 
 
-                <div class="education-timeline">
+                <div class="academic-content">
 
 
-                    <!-- Current -->
+                    <div class="academic-item">
 
-                    <div class="education-item">
+                        <div class="academic-icon">
 
-                        <div class="education-icon">
-
-                            <i class="fas fa-graduation-cap"></i>
+                            <i class="fas fa-laptop-code"></i>
 
                         </div>
 
+                        <div>
 
-                        <div class="education-content">
-
-                            <span class="education-status">
-                                Current
+                            <span>
+                                Current Studies
                             </span>
 
                             <h3>
-                                Bachelor of Science
-                                in Information Technology
+                                Bachelor of Science in Information Technology
                             </h3>
 
                             <p>
-                                2nd Year BSIT Student
-                            </p>
-
-                            <p>
-                                Continuing to develop skills
-                                in programming, web development,
-                                and information technology.
+                                Currently studying at De La Salle John Bosco
+                                and developing skills in programming,
+                                web development, and information technology.
                             </p>
 
                         </div>
@@ -493,21 +503,18 @@
                     </div>
 
 
-                    <!-- IT Development -->
+                    <div class="academic-item">
 
-                    <div class="education-item">
-
-                        <div class="education-icon">
+                        <div class="academic-icon">
 
                             <i class="fas fa-code"></i>
 
                         </div>
 
+                        <div>
 
-                        <div class="education-content">
-
-                            <span class="education-status">
-                                Developing
+                            <span>
+                                Areas of Interest
                             </span>
 
                             <h3>
@@ -515,79 +522,122 @@
                             </h3>
 
                             <p>
-                                Building practical knowledge
-                                through academic activities
-                                and personal projects.
+                                Learning programming languages, website
+                                development, responsive design, and
+                                software development concepts.
                             </p>
 
                         </div>
 
                     </div>
 
+
+                    <div class="academic-item">
+
+                        <div class="academic-icon">
+
+                            <i class="fas fa-seedling"></i>
+
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Personal Growth
+                            </span>
+
+                            <h3>
+                                Learning Through Practice
+                            </h3>
+
+                            <p>
+                                I continue to improve by practicing what I
+                                learn and working on projects that help me
+                                gain practical experience.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- Education Button -->
+
+                <div class="section-button">
+
+                    <a href="education.html"
+                       class="btn btn-primary">
+
+                        View My Education
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
                 </div>
 
             </div>
 
         </section>
-                <!-- =========================
-             ABOUT CTA
-        ========================== -->
+                <!-- ========================================
+             CTA
+        ========================================= -->
 
-        <section class="home-cta">
+        <section class="page-cta">
 
-            <div class="cta-container">
-
-
-                <div class="cta-icon">
-
-                    <i class="fas fa-code"></i>
-
-                </div>
-
+            <div class="section-container">
 
                 <div class="cta-content">
 
-                    <span>
-                        Explore more
+                    <span class="section-label">
+
+                        <i class="fas fa-code"></i>
+
+                        Keep Growing
+
                     </span>
 
                     <h2>
-                        Discover My Skills
+                        Turning Curiosity Into Skills
                     </h2>
 
                     <p>
-                        Take a look at the technologies
-                        and skills I am currently developing.
+                        Explore the technical and personal skills I am
+                        developing as an Information Technology student.
                     </p>
 
+                    <a href="skills.html"
+                       class="btn btn-primary">
+
+                        Explore My Skills
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
                 </div>
-
-
-                <a href="skills.html"
-                   class="btn cta-btn">
-
-                    View Skills
-
-                    <i class="fas fa-arrow-right"></i>
-
-                </a>
 
             </div>
 
         </section>
+
 
     </main>
 
 
-
-    <!-- =========================
+    <!-- ========================================
          FOOTER
-    ========================== -->
+    ========================================= -->
 
     <footer class="footer">
 
         <div class="footer-container">
 
+
+            <!-- Footer Brand -->
 
             <div class="footer-brand">
 
@@ -595,22 +645,28 @@
                     A
                 </div>
 
-                <div>
+                <h3>
+                    Arheannah Delfino
+                </h3>
 
-                    <h3>
-                        Arheannah Delfino
-                    </h3>
+                <p>
+                    2nd Year BS Information Technology Student
+                </p>
 
-                    <p>
-                        2nd Year BS Information Technology Student
-                    </p>
-
-                </div>
+                <p class="footer-motto">
+                    “Grow with curiosity, create with purpose.”
+                </p>
 
             </div>
 
 
+            <!-- Footer Links -->
+
             <div class="footer-links">
+
+                <h4>
+                    Quick Links
+                </h4>
 
                 <a href="index.html">
                     Home
@@ -618,6 +674,10 @@
 
                 <a href="about.html">
                     About
+                </a>
+
+                <a href="education.html">
+                    Education
                 </a>
 
                 <a href="skills.html">
@@ -635,55 +695,58 @@
             </div>
 
 
+            <!-- Social -->
+
             <div class="footer-social">
 
-                <a href="https://www.facebook.com/share/19Eqh1hroo/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="Facebook">
+                <h4>
+                    Connect With Me
+                </h4>
 
-                    <i class="fab fa-facebook-f"></i>
+                <div class="social-links">
 
-                </a>
+                    <a href="https://www.facebook.com/share/19Eqh1hroo/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Facebook">
 
+                        <i class="fab fa-facebook-f"></i>
 
-                <a href="https://www.instagram.com/itsur_eana?stkn=MWtpcGV1b3U5Y3pvMA=="
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="Instagram">
-
-                    <i class="fab fa-instagram"></i>
-
-                </a>
-
-            </div>
+                    </a>
 
 
-            <div class="footer-bottom">
+                    <a href="https://www.instagram.com/itsur_eana?stkn=MWtpcGV1b3U5Y3pvMA=="
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
 
-                <p>
-                    © 2026 Arheannah Delfino.
-                    All Rights Reserved.
-                </p>
+                        <i class="fab fa-instagram"></i>
 
-                <p>
-                    Built with curiosity and creativity.
-                </p>
+                    </a>
+
+                </div>
 
             </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Arheannah Delfino. All Rights Reserved.
+            </p>
 
         </div>
 
     </footer>
 
 
-
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
+    <!-- JavaScript -->
 
     <script src="js/script.js"></script>
-
 
 </body>
 
